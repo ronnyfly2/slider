@@ -1,0 +1,228 @@
+<testsuites name="jest tests" tests="16" failures="15" time="1.569">
+  <testsuite name="undefined" errors="0" failures="15" skipped="0" timestamp="2019-11-10T15:01:42" time="1.569" tests="16">
+    <testcase classname=" should create the catalog-viewer app" name=" should create the catalog-viewer app" time="0.047">
+      <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
+
+Expected the element to have class:
+  thumb-selected
+Received:
+  thumb-outer
+    at Object.&lt;anonymous&gt;.test (/Users/gopal.jayaraman/Downloads/react-catalog-medium/src/App.test.js:81:23)
+    at Object.asyncFn (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" page should contain the catalog UI elements" name=" page should contain the catalog UI elements" time="0.012">
+      <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
+
+Expected the element to have class:
+  thumb-selected
+Received:
+  thumb-outer
+    at Object.&lt;anonymous&gt;.test (/Users/gopal.jayaraman/Downloads/react-catalog-medium/src/App.test.js:87:23)
+    at Object.asyncFn (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" should catalog-view load with first item of catalog" name=" should catalog-view load with first item of catalog" time="0.011">
+      <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
+
+Expected the element to have class:
+  thumb-selected
+Received:
+  thumb-outer
+    at Object.&lt;anonymous&gt;.test (/Users/gopal.jayaraman/Downloads/react-catalog-medium/src/App.test.js:99:23)
+    at Object.asyncFn (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" catalog thumb icons length should be equal to catalog items length" name=" catalog thumb icons length should be equal to catalog items length" time="0.011">
+      <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
+
+Expected the element to have class:
+  thumb-selected
+Received:
+  thumb-outer
+    at Object.&lt;anonymous&gt;.test (/Users/gopal.jayaraman/Downloads/react-catalog-medium/src/App.test.js:104:23)
+    at Object.asyncFn (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Clicking on previous button should show the previous image" name=" Clicking on previous button should show the previous image" time="0.008">
+      <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
+
+Expected the element to have class:
+  thumb-selected
+Received:
+  thumb-outer
+    at Object.&lt;anonymous&gt;.test (/Users/gopal.jayaraman/Downloads/react-catalog-medium/src/App.test.js:115:23)
+    at Object.asyncFn (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Clicking on next button should show the next image" name=" Clicking on next button should show the next image" time="0.008">
+      <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
+
+Expected the element to have class:
+  thumb-selected
+Received:
+  thumb-outer
+    at Object.&lt;anonymous&gt;.test (/Users/gopal.jayaraman/Downloads/react-catalog-medium/src/App.test.js:127:23)
+    at Object.asyncFn (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Clicking on next button in the last item should show the first image" name=" Clicking on next button in the last item should show the first image" time="0.007">
+      <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
+
+Expected the element to have class:
+  thumb-selected
+Received:
+  thumb-outer
+    at Object.&lt;anonymous&gt;.test (/Users/gopal.jayaraman/Downloads/react-catalog-medium/src/App.test.js:139:23)
+    at Object.asyncFn (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Clicking on previous button in the first item should show the last image" name=" Clicking on previous button in the first item should show the last image" time="0.011">
+      <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
+
+Expected the element to have class:
+  thumb-selected
+Received:
+  thumb-outer
+    at Object.&lt;anonymous&gt;.test (/Users/gopal.jayaraman/Downloads/react-catalog-medium/src/App.test.js:153:23)
+    at Object.asyncFn (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Clicking on any indicator icon should show the appropriate image" name=" Clicking on any indicator icon should show the appropriate image" time="0.012">
+      <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
+
+Expected the element to have class:
+  thumb-selected
+Received:
+  thumb-outer
+    at Object.&lt;anonymous&gt;.test (/Users/gopal.jayaraman/Downloads/react-catalog-medium/src/App.test.js:166:23)
+    at Object.asyncFn (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" when slide enabled should change the image for every 3 seconds" name=" when slide enabled should change the image for every 3 seconds" time="0.007">
+      <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
+
+Expected the element to have class:
+  thumb-selected
+Received:
+  thumb-outer
+    at Object.&lt;anonymous&gt;.done (/Users/gopal.jayaraman/Downloads/react-catalog-medium/src/App.test.js:172:23)
+    at resolve (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" when slide enabled also user interaction like previous, next or indicator should work as expected" name=" when slide enabled also user interaction like previous, next or indicator should work as expected" time="0.009">
+      <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
+
+Expected the element to have class:
+  thumb-selected
+Received:
+  thumb-outer
+    at Object.&lt;anonymous&gt;.done (/Users/gopal.jayaraman/Downloads/react-catalog-medium/src/App.test.js:189:23)
+    at resolve (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" uncheck slide should stop changing the image for every 3 seconds" name=" uncheck slide should stop changing the image for every 3 seconds" time="0.007">
+      <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
+
+Expected the element to have class:
+  thumb-selected
+Received:
+  thumb-outer
+    at Object.&lt;anonymous&gt;.done (/Users/gopal.jayaraman/Downloads/react-catalog-medium/src/App.test.js:206:23)
+    at resolve (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" click on catalog thumb should update the viewer image" name=" click on catalog thumb should update the viewer image" time="0.014">
+      <failure>Error: expect(string).toContain(value)
+
+Expected string:
+  &quot;http://localhost/tea-light.jpeg&quot;
+To contain value:
+  &quot;pink-light.jpeg&quot;
+    at Object.&lt;anonymous&gt;.test (/Users/gopal.jayaraman/Downloads/react-catalog-medium/src/App.test.js:233:22)
+    at Object.asyncFn (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" the first catalog thumb should have a background image &quot;/mobile-front-thumb.jpeg&quot;" name=" the first catalog thumb should have a background image &quot;/mobile-front-thumb.jpeg&quot;" time="0.015">
+      <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
+
+Expected the element to have class:
+  thumb-selected
+Received:
+  thumb-outer
+    at Object.&lt;anonymous&gt;.test (/Users/gopal.jayaraman/Downloads/react-catalog-medium/src/App.test.js:239:23)
+    at Object.asyncFn (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" selected thumb should be highlighted with blue border by applying css class &quot;thumb-selected" name=" selected thumb should be highlighted with blue border by applying css class &quot;thumb-selected" time="0.007">
+      <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
+
+Expected the element to have class:
+  thumb-selected
+Received:
+  thumb-outer
+    at Object.&lt;anonymous&gt;.test (/Users/gopal.jayaraman/Downloads/react-catalog-medium/src/App.test.js:245:23)
+    at Object.asyncFn (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/gopal.jayaraman/Downloads/react-catalog-medium/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" catalog view should display first img element by default" name=" catalog view should display first img element by default" time="0.007">
+    </testcase>
+  </testsuite>
+</testsuites>
